@@ -50,7 +50,7 @@ public class LoginController implements Serializable {
         usuarioAutenticado=ejbDao.encontrarUsuarioPorLogin(usuario.getCorreo(), usuario.getClave());
         
         
-        ctx.getExternalContext().redirect("home");
+        //ctx.getExternalContext().redirect("home");
         
         if (usuarioAutenticado !=null){
             ctx.getExternalContext().redirect("home.xhtml");
