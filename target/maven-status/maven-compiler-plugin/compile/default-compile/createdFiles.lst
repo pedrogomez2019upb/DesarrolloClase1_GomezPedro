@@ -1,0 +1,6 @@
+edu/upb/desarrollosemana10/entities/Usuario.class
+edu/upb/desarrollosemana10/dao/UsuarioDAO.class
+edu/upb/desarrollosemana10/Controllers/LoginController.class
+edu/upb/desarrollosemana10/entities/TipoUsuario.class
+edu/upb/desarrollosemana10/resources/JavaEE8Resource.class
+edu/upb/desarrollosemana10/JAXRSConfiguration.class
