@@ -50,7 +50,7 @@ public class UsuarioDAO {
     }
 
     public void crearConexion() {
-        factory = Persistence.createEntityManagerFactory("Web_DBAccessPU");
+        factory = Persistence.createEntityManagerFactory("my_persistence_unit");
         em = factory.createEntityManager();
     }
 

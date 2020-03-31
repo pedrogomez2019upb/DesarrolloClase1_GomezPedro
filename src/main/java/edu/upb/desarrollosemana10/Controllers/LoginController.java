@@ -53,11 +53,11 @@ public class LoginController implements Serializable {
         ctx.getExternalContext().redirect("home");
         
         if (usuarioAutenticado !=null){
-            ctx.getExternalContext().redirect("home");
+            ctx.getExternalContext().redirect("home.xhtml");
             
         }
         else{
-            ctx.getExternalContext().redirect("index");
+            ctx.getExternalContext().redirect("index.xhtml");
         }
         
     }
