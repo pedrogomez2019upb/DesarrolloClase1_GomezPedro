@@ -27,6 +27,8 @@ public class LoginController implements Serializable {
     
     private Usuario usuario;
     private Usuario usuarioAutenticado =null;
+    
+    private List<Usuario> listado;
 
     private String email;
     private String password;
@@ -83,6 +85,15 @@ public class LoginController implements Serializable {
 
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
+    }
+
+    public List<Usuario> getListado() {
+        listado=ejbDao.listar();
+        return listado;
+    }
+
+    public void setListado(List<Usuario> listado) {
+        this.listado = listado;
     }
 
 
